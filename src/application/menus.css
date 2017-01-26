@@ -33,6 +33,7 @@
 
 
 .p-MenuBar-item {
+  color: white;
   padding: 0px 8px;
   border-left: var(--jp-border-width) solid transparent;
   border-right: var(--jp-border-width) solid transparent;

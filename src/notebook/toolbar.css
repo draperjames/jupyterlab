@@ -14,6 +14,7 @@
 
 
 .jp-Notebook-toolbarCellType select {
+  color: white;
   background: var(--jp-layout-color1);
 }
 
@@ -83,6 +84,7 @@
 .jp-NBToolbar-item.jp-NBToolbar-button,
 .jp-NBToolbar-item.jp-NBToolbar-kernelIndicator {
   font-family: FontAwesome;
+  color: white !important;
   text-align: center;
   display: inline-block;
 }
@@ -174,4 +176,3 @@
 .jp-NBToolbar-item.jp-NBToolbar-kernelIndicator.jp-mod-busy::before {
     content: "\f111";  /* Circle */
 }
-

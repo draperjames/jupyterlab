@@ -63,7 +63,8 @@
 
 
 .jp-Output-prompt {
-  color: var(--jp-private-notebook-cell-outprompt-color);
+  /*color: var(--jp-private-notebook-cell-outprompt-color);*/
+  color: red;
   font-family: monospace;
   text-align: right;
   vertical-align: middle;
@@ -192,4 +193,3 @@ img.jp-mod-unconfined {
   margin-left: 0;
   margin-right: 0;
 }
-

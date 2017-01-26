@@ -157,12 +157,14 @@
 
 
 .jp-DirListing-headerItem.jp-mod-selected .jp-DirListing-headerItemIcon:before {
+  color: white;
   font-family: FontAwesome;
   content: "\f0d8";
 }
 
 
 .jp-DirListing-headerItem.jp-mod-selected.jp-mod-descending .jp-DirListing-headerItemIcon:before {
+  color: white;
   font-family: FontAwesome;
   content: "\f0d7";
 }
@@ -215,6 +217,7 @@
 
 
 .jp-DirListing-itemIcon {
+  color: white;
   flex: 0 0 20px;
   font-family: FontAwesome;
   font-size: 14px;

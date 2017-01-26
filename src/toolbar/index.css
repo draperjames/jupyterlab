@@ -31,6 +31,7 @@
 
 
 .jp-Toolbar-item.jp-Toolbar-button {
+  color: var(--jp-content-font-color1);
   font-family: FontAwesome;
   text-align: center;
   display: inline-block;

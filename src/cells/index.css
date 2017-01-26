@@ -16,7 +16,7 @@
   --jp-private-cell-prompt-width: 90px;
   --jp-private-cell-inprompt-color: #303F9F;
   --jp-private-cell-outprompt-color: #D84315;
-  --jp-private-cell-font-family: 'Helvetica';
+  --jp-private-cell-font-family: 'Consolas';
   --jp-private-cell-prompt-letter-spacing: 2px;
 }
 
@@ -82,6 +82,7 @@
 .jp-InputArea {
   display: flex;
   flex-direction: row;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 
@@ -93,7 +94,9 @@
 
 
 .jp-CellEditor {
-  border: var(--jp-border-width) solid var(--jp-private-cell-editor-border);
-  border-radius: 0px;
+  /*border: var(--jp-border-width) solid var(--jp-private-cell-editor-border);*/
+  border: var(--jp-border-width) solid gray;
+  border-radius: .5em;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;*/
   background: var(--jp-private-cell-editor-background);
 }

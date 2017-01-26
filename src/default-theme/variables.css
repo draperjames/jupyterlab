@@ -55,10 +55,21 @@ all of MD as it is not optimized for dense, information rich UIs.
      In a light theme, these go from dark to light.
   */
 
-  --jp-ui-font-color0: rgba(0,0,0,1.0);
+  /*--jp-ui-font-color0: rgba(0,0,0,1.0);
   --jp-ui-font-color1: rgba(0,0,0,0.87);
   --jp-ui-font-color2: rgba(0,0,0,0.54);
-  --jp-ui-font-color3: rgba(0,0,0,0.38);
+  --jp-ui-font-color3: rgba(0,0,0,0.38);*/
+
+  /*--jp-ui-font-color0: white;
+  --jp-ui-font-color1: rgb(157,157,157);
+  --jp-ui-font-color2: var(--md-grey-700);
+  --jp-ui-font-color3: var(--md-grey-500);*/
+
+  --jp-ui-font-color0: white;
+  --jp-ui-font-color1: white;
+  --jp-ui-font-color2: white;
+  --jp-ui-font-color3: white;
+
 
   /* Use these against the brand/accent/warn/error colors.
      These will typically go from light to darker, in both a dark and light theme
@@ -74,10 +85,17 @@ all of MD as it is not optimized for dense, information rich UIs.
   Content font variables are used for typography of user generated content.
   */
 
-  --jp-content-font-size: 13px;
+  /*--jp-content-font-size: 13px;
   --jp-content-line-height: 1.5;
   --jp-content-font-color0: black;
   --jp-content-font-color1: black;
+  --jp-content-font-color2: var(--md-grey-700);
+  --jp-content-font-color3: var(--md-grey-500);*/
+
+  --jp-content-font-size: 13px;
+  --jp-content-line-height: 1.5;
+  --jp-content-font-color0: black;
+  --jp-content-font-color1: white;
   --jp-content-font-color2: var(--md-grey-700);
   --jp-content-font-color3: var(--md-grey-500);
 
@@ -97,10 +115,17 @@ all of MD as it is not optimized for dense, information rich UIs.
   theme these would go from light to dark.
   */
 
-  --jp-layout-color0: white;
+  /*--jp-layout-color0: white;
   --jp-layout-color1: white;
   --jp-layout-color2: var(--md-grey-200);
   --jp-layout-color3: var(--md-grey-400);
+  */
+
+  --jp-layout-color0: #282C34;
+  --jp-layout-color1: #282C34;
+  --jp-layout-color2: #282C34;
+  --jp-layout-color3: #282C34;
+
 
   /* Brand/accent */
 
@@ -108,6 +133,11 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-brand-color1: var(--md-blue-500);
   --jp-brand-color2: var(--md-blue-300);
   --jp-brand-color3: var(--md-blue-100);
+
+  /*--jp-brand-color0: white;
+  --jp-brand-color1: white;
+  --jp-brand-color2: white;
+  --jp-brand-color3: white;*/
 
   --jp-accent-color0: var(--md-green-700);
   --jp-accent-color1: var(--md-green-500);

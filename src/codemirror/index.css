@@ -24,11 +24,12 @@
   font-size: var(--jp-code-font-size);
   height: auto;
   /* Changed to auto to autogrow */
-  background: none;
+  background:  #282C34;
 }
 
 
 .CodeMirror pre {
+  color: white;
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -75,6 +76,7 @@
 */
 
 
+/*
 .cm-s-jupyter span.cm-keyword      { color: #008000; font-weight: bold; }
 .cm-s-jupyter span.cm-atom         { color: #88F; }
 .cm-s-jupyter span.cm-number       { color: #080; }
@@ -98,7 +100,7 @@
 .cm-s-jupyter span.cm-quote        { color: #090; }
 .cm-s-jupyter span.cm-link         { color: #00c; }
 .cm-s-jupyter span.cm-error        { color: #f00; }
-.cm-s-jupyter span.cm-hr           { color: #999; }
+.cm-s-jupyter span.cm-hr           { color: #999; }*/
 
 .cm-s-jupyter span.cm-tab {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
@@ -106,3 +108,97 @@
   background-repeat: no-repeat;
 }
 
+/* My custom colors */
+
+.cm-s-jupyter.CodeMirror {
+    /* The color below is all of the text not spoken for by the code below. */
+    color: #B5C2D9;
+}
+
+.cm-s-jupyter span.cm-comment {
+    color: #7C7C7C;
+}
+
+.cm-s-jupyter span.cm-atom {
+    color: #61afef;
+}
+
+.cm-s-jupyter span.cm-number {
+    color: #e2a271;
+}
+
+.cm-s-jupyter span.cm-property {
+    color: #B5C2D9;
+}
+
+.cm-s-jupyter span.cm-attribute {
+    color: #ea8080;
+}
+
+.cm-s-jupyter span.cm-keyword {
+    color: #cc89e0;
+}
+
+.cm-s-jupyter span.cm-string {
+    color: #94c273;
+}
+
+.cm-s-jupyter span.cm-meta {
+    color: #51b6c3;
+}
+
+.cm-s-jupyter span.cm-operator {
+    color: #5cadf1;
+}
+
+.cm-s-jupyter span.cm-builtin {
+    color: #61afef;
+}
+
+.cm-s-jupyter span.cm-variable {
+    color: #B5C2D9;
+}
+
+.cm-s-jupyter span.cm-variable-2 {
+    color: #ea8080;
+}
+
+.cm-s-jupyter span.cm-variable-3 {
+    color: #51b6c3;
+}
+
+.cm-s-jupyter span.cm-def {
+    color: #e2a271;
+}
+
+.cm-s-jupyter span.cm-error {
+    background: #bf616a;
+    color: #a7adba;
+}
+
+.cm-s-jupyter span.cm-bracket {
+    color: #B5C2D9;
+    font-weight: bold;
+}
+
+.cm-s-jupyter span.cm-tag {
+    color: #61afef;
+}
+
+.cm-s-jupyter span.cm-link {
+    color: #e2a271;
+}
+
+.cm-s-jupyter span.cm-storage {
+    color: #61afef;
+}
+
+.cm-s-jupyter span.cm-entity {
+    color: #61afef;
+}
+
+.cm-s-jupyter span.cm-latex {
+    color: #8fb36a;
+}
+
+.cm-s-jupyter span.cm-punctuation  { color: white; }
