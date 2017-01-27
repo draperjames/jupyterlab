@@ -3,6 +3,10 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
+svg {
+  fill: [white] !important;
+}
+
 .jp-MaterialIcon {
   min-width: 16px;
   min-height: 16px;
@@ -15,67 +19,67 @@
 
 
 .jp-AddIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/add.svg);
 }
 
 
 .jp-CloseIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/close.svg);
 }
 
 
 .jp-CutIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/cut.svg);
 }
 
 
 .jp-CopyIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/copy.svg);
 }
 
 
 .jp-DownCaretIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/down_caret.svg);
 }
 
 
 .jp-DownloadIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/download.svg);
 }
 
 
 .jp-EditIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/edit.svg);
 }
 
 
 .jp-EllipsesIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/ellipses.svg);
 }
 
 
 .jp-FileIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/file.svg);
 }
 
 
 .jp-FolderIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/landingfolder.svg);
 }
 
 
 .jp-HomeIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/home.svg);
   min-width: 14px;
   min-height: 14px;
@@ -85,7 +89,7 @@
 
 
 .jp-JupyterIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/jupyter/jupyter.svg);
   background-size: 16px;
   margin: 2px;
@@ -111,48 +115,49 @@
 
 
 .jp-NotebookIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/book.svg);
 }
 
 
 .jp-OpenFolderIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/directory.svg);
 }
 
 
 .jp-PasteIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/paste.svg);
 }
 
 
 .jp-RefreshIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/refresh.svg);
 }
 
 
 .jp-RunIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/run.svg);
 }
 
 
 .jp-SaveIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/save.svg);
+  fill: #fff;
 }
 
 
 .jp-StopIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/stop.svg);
 }
 
 
 .jp-UploadIcon {
-  -webkit-filter: invert(1);
+  -webkit-filter: invert( var(--jp-fa-invert) );
   background-image: url(icons/md/upload.svg);
 }
